@@ -20,5 +20,28 @@
     <li>It can be played alone or with other people without the need of registrations, thanks to Bluetooth</li>
   </ul>
   <h2>First Steps</h2>
+  You can play in three different modes:
+  <ul>
+    <li>Single Player</li>
+    <li>MutiPlayer - Server</li>
+    <li>MutiPlayer - Client</li>
+  </ul>
+  There are also some configurations you need to set before start playing, depending on the mode:
+  <ul>
+    <li><b>Player</b>: this is your name, not needed in Single Player mode.</li>
+    <li><b>Data URL</b>: this is required unless you play as Client in Multiplayer mode. This is a public JSON with the questions and the answers, which format is described below. You can enter your own URL or chose one of the preset</li>
+  </ul>
+  <h2>Multiplayer</h2>
+  <p>
+    <b>Very Important</b>: all the devices must have bluetooth enabled and they must be paired each other. Unfortunatelly the current version of the application (in fact this is a limitation of <a href="http://appinventor.mit.edu/">MIT App Inventor</a> is not capable of doing the pairing so you have to do it by yourself.
+  </p>
+  One of the devices will act as <b>Server</b> and it must have set:
+  <ul>
+    <li>Player's name</li>
+    <li>Data URL</li>
+  </ul>
+  It will the request of the other players until it decides to <b>Start the game</b>
+
+
 </body>
 </html>
